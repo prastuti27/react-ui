@@ -1,13 +1,15 @@
 import React from 'react';
 
 import './App.css';
+import Navbar from './components/Navbar.tsx';
+import Landing from './pages/Landing.tsx';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+     
+    <Navbar/>
+    <Landing/>
     </div>
   );
 }
