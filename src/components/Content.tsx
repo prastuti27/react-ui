@@ -1,4 +1,8 @@
 import React from 'react'
+type ContentProps={
+  h2text:string
+  ptext:string
+}
 
 const Content = () => {
   return (

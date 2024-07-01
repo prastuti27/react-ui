@@ -4,6 +4,8 @@ import Content from '../components/Content.tsx'
 import socialImage from '../assets/images/social.png'
 import newsImage from '../assets/images/news.png'
 import orderImage from '../assets/images/order.png'
+import Footer from '../components/Footer.tsx'
+
 
 const Landing = () => {
   return (
@@ -20,7 +22,7 @@ const Landing = () => {
      <Image src={orderImage} alt ="order"/>
      <Content/>
      </div>
-    
+    <Footer/>
     </>
   )
 }

@@ -5,7 +5,7 @@ type ButtonProps={
     bgColor:string;
 }
 
-const Button: React.FC<ButtonProps> = ({ text, bgColor }) => {
+const Button=({ text, bgColor }: ButtonProps) => {
   return (
     <div>
       <button className={` text-white hidden p-2 border-b-1 border-purple-dark lg:block ${bgColor}`}>
