@@ -8,15 +8,15 @@ import orderImage from '../assets/images/order.png'
 const Landing = () => {
   return (
     <>
-     <div className='flex  justify-center '>   
+     <div className='  justify-center   flex flex-col   md:flex-row '>   
     <Image src={newsImage} alt ="news"/>
     <Content/>
     </div>
-    <div className='flex  justify-center '>
+    <div className=' justify-center   flex flex-col   md:flex-row '>
      <Image src={socialImage} alt ="social"/>
      <Content/>
      </div>
-     <div className='flex  justify-center '>
+     <div className=' justify-center   flex flex-col   md:flex-row'>
      <Image src={orderImage} alt ="order"/>
      <Content/>
      </div>
