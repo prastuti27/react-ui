@@ -1,11 +1,13 @@
-import React from 'react'
-type ParaProps={
-    text:string
-}
-const Paragraph = ({text}:ParaProps) => {
+import React from "react";
+type ParaProps = {
+  text: string;
+};
+const Paragraph = ({ text }: ParaProps) => {
   return (
-   <><p>{text}</p></>
-  )
-}
+    <>
+      <p className="text-purple-light">{text}</p>
+    </>
+  );
+};
 
-export default Paragraph
+export default Paragraph;
