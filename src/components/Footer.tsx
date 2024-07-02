@@ -22,7 +22,7 @@ const Footer = () => {
           <h1 className="text-purple-default text-lg font-bold">Landing</h1>
           <Button text=" Purchase now" bgColor="bg-purple-dark" />
         </div>
-        <div className="flex justify-between  w-full">
+        <div className="flex justify-center md:justify-between  w-full">
           <List names={names} />
           <Icons icons={icons} />
         </div>

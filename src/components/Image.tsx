@@ -6,8 +6,8 @@ type ImageProps = {
 
 const Image: React.FC<ImageProps> = ({ src, alt }) => {
   return (
-    <div className="lg:w-1/2 md:w-1/2  w-full  flex justify-center mt-14">
-      <img className="object-contain" src={src} alt={alt} />
+    <div className="lg:w-1/2 md:w-1/2  w-full  flex justify-center ">
+      <img className="object-contain p-8" src={src} alt={alt} />
     </div>
   );
 };

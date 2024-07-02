@@ -5,7 +5,7 @@ type ParaProps = {
 const Paragraph = ({ text }: ParaProps) => {
   return (
     <>
-      <p className="text-purple-light">{text}</p>
+      <p className="md:text-start text-purple-light p-3">{text}</p>
     </>
   );
 };

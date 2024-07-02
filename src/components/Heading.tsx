@@ -5,7 +5,7 @@ type HeadingProps = {
 const Heading = ({ text }: HeadingProps) => {
   return (
     <>
-      <h2 className="text-purple-dark mt-10 text-2xl sm:text-3xl lg:text-4xl font-semibold">
+      <h2 className="text-purple-dark mt-10 md:text-start text-2xl sm:text-3xl lg:text-4xl font-semibold">
         {text}
       </h2>
     </>
