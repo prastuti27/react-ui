@@ -2,10 +2,10 @@ import React from "react";
 import Paragraph from "./Paragraph.tsx";
 import Heading from "./Heading.tsx";
 
-const Content = () => {
+const Content = ({ text }) => {
   return (
     <div className="lg:w-1/2 md:w-1/2 mt-10  w-full  flex flex-col gap-8 justify-center ">
-      <Heading text="Light, Fast & Powerful" />
+      <Heading text={text} />
 
       <Paragraph
         text="
