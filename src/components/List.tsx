@@ -1,19 +1,21 @@
-import React from 'react';
+import React from "react";
 
 type ListProps = {
   names: string[];
 };
 
-const List: React.FC<ListProps> = ({ names }) => {
+const List=({ names }: ListProps) => {
   return (
     <div className="hidden lg:block sm:hidden md:hidden p-3">
       <ul className="flex gap-10 text-purple-light">
         {names.map((name, index) => (
-          <li key={index}><a href="">{name}</a></li>
+          <li key={index}>
+            <a href="">{name}</a>
+          </li>
         ))}
       </ul>
     </div>
   );
-}
+};
 
 export default List;

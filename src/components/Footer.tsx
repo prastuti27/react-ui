@@ -1,11 +1,17 @@
-import React from 'react';
-import List from './List.tsx';
-import Button from './Button.tsx';
-import Icons from './Icons.tsx';
-import { FaLinkedinIn, FaFacebookF, FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa";
+import React from "react";
+import List from "./List.tsx";
+import Button from "./Button.tsx";
+import Icons from "./Icons.tsx";
+import {
+  FaLinkedinIn,
+  FaFacebookF,
+  FaYoutube,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
 
 const icons = [FaLinkedinIn, FaFacebookF, FaYoutube, FaTwitter, FaInstagram];
-const names = ['Home', 'About', 'Contact'];
+const names = ["Home", "About", "Contact"];
 
 const Footer = () => {
   return (
@@ -15,9 +21,10 @@ const Footer = () => {
           <span>©2023 Yourcompany</span>
           <h1 className="text-purple-default text-lg font-bold">Landing</h1>
           <Button text=" Purchase now" bgColor="bg-purple-dark" />
-        </div><div className="flex justify-between  w-full" >
-        <List names={names} />
-        <Icons icons={icons} />
+        </div>
+        <div className="flex justify-between  w-full">
+          <List names={names} />
+          <Icons icons={icons} />
         </div>
       </footer>
     </>
