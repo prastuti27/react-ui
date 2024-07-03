@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center fixed w-full z-30 px-10  ">
       <List names={names} />
       <h1 className="text-purple-default text-lg font-bold">Landing</h1>
-      <Button text="Buy now" bgColor="bg-purple-dark" />
+      <Button bgColor="bg-purple-dark">Buy now</Button>
       <i className="ph ph-list lg:hidden"></i>
     </div>
   );

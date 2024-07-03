@@ -5,7 +5,7 @@ type IconsProps = {
   icons: IconType[];
 };
 
-const Icons = ({ icons }: IconsProps) => {
+const Brands = ({ icons }: IconsProps) => {
   return (
     <div className="flex gap-4">
       {icons.map((Icon, index) => (
@@ -17,4 +17,4 @@ const Icons = ({ icons }: IconsProps) => {
   );
 };
 
-export default Icons;
+export default Brands;

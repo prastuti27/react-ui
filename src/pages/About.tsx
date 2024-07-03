@@ -1,8 +1,8 @@
 import React from "react";
 
-import Image from "../components/Image.tsx"; // Importing an Image component (assuming it exists)
-import Card from "../components/Card.tsx"; // Importing a Card component (assuming it exists)
-import phoneImage from "../assets/images/phone.png"; // Importing an image asset
+import Image from "../components/Image.tsx";
+import Card from "../components/Card.tsx";
+import { imageData } from "../data/ImageData.tsx";
 
 const About = () => {
   return (
@@ -20,11 +20,22 @@ const About = () => {
               Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
               sem. Nulla consequat massa quis enim.
             </p>
-            <Card />
+            <Card
+              title=" Title Goes Here"
+              description=" Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor."
+              icon={imageData.icon}
+            />
+            <Card
+              title=" Title Goes Here"
+              description=" Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor."
+              icon={imageData.icon}
+            />
           </div>
 
           <div className="flex justify-center ">
-            <Image src={phoneImage} alt="phone" />
+            <Image src={imageData.phone} alt="phone" />
           </div>
         </div>
       </div>

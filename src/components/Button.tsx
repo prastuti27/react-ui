@@ -1,17 +1,17 @@
 import React from "react";
 
 type ButtonProps = {
-  text: string;
+  children: React.ReactNode;
   bgColor: string;
 };
 
-const Button = ({ text, bgColor }: ButtonProps) => {
+const Button = ({ children, bgColor }: ButtonProps) => {
   return (
     <div>
       <button
-        className={` text-white hidden p-2 w-40 border-b-1 border-purple-dark lg:block ${bgColor}`}
+        className={`text-white hidden p-2 w-40 border-1 border-purple-dark lg:block ${bgColor}`}
       >
-        {text}
+        {children}
       </button>
     </div>
   );
